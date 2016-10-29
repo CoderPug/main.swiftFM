@@ -1,0 +1,293 @@
+#extend("base")
+
+#export("head") {
+    
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <title>Cocoa bytes</title>
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+
+}
+
+#export("body") {
+
+    <header class="podcast-header">
+        <div class="container">
+        <a class="podcast-title" title="Cocoa Lima Bytes" href="www.coderpug.com">
+            <img src="https://pbs.twimg.com/profile_images/790408622765244416/rt8_eL-7.jpg" alt="Twitter etc fmgs logo white">
+        </a>
+        <nav class="podcast-nav">
+            <ul>
+            <li><a class="podcast-nav-link nav-itunes hint--bottom hint--rounded" data-hint="Listen in iTunes" target="_blank" href="#()">Listen in iTunes</a></li>
+            <li><a class="podcast-nav-link nav-rss hint--bottom hint--rounded" data-hint="Subscribe via RSS" target="_blank" href="#()">Subscribe via RSS</a></li>
+            <li><a class="podcast-nav-link nav-twitter hint--bottom hint--rounded" data-hint="Follow on Twitter" target="_blank" href="https://twitter.com/cocoalima">Follow on Twitter</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section class="container podcast-main">
+        <div class="podcast-description">
+            <p>Dummy text for presentation</p>
+        </div>
+
+        <div class="podcast-episodes">
+        <ol reversed="">
+        <li class="podcast-episode">
+        <a class="podcast-episode-image" href="/90"><img src="https://s-media-cache-ak0.pinimg.com/236x/f4/ff/e3/f4ffe34ca54bc9f05a83e07699d9b022.jpg" alt="Thumb 1476112956 artwork"></a>
+        <article>
+            <header>
+                <time class="podcast-episode-date" datetime="2016-10-10">10 October 2016</time>
+                <h3 class="podcast-episode-title"><a href="#()">nro#() | Titulo interesante para el episodio</a></h3>
+            </header>
+            <div class="podcast-episode-player">
+            <div class="jp-jplayer" id="simplecast-audio-player" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_0" preload="none" src="http://audio.simplecast.com/49546.mp3"></audio></div>
+            <div class="jp-audio simplecast-player" data-duration="448" data-media="http://audio.simplecast.com/49546.mp3" id="jp_container_1">
+            <div class="jp-type-single">
+            <div class="jp-gui jp-interface">
+            <nav class="jp-controls jp-play-controls jp-gui-item">
+            <a class="jp-play" href="javascript:;" tabindex="1" title="Play"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="7px" height="8px" viewBox="0 0 7 8" style="enable-background:new 0 0 7 8;" xml:space="preserve" class="svg replaced-svg">
+            <path id="Play_3" style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,7.563V0.436C0,0.04,0.584-0.112,0.908,0.088l5.806,3.545  c0.322,0.202,0.403,0.531,0.081,0.733L0.867,7.911C0.545,8.113,0,7.958,0,7.563z"></path>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg></a>
+        <a class="jp-pause" href="javascript:;" tabindex="1" title="Pause" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="6px" height="8px" viewBox="0 0 6 8" style="enable-background:new 0 0 6 8;" xml:space="preserve" class="svg replaced-svg">
+        <g id="Pause_3">
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0.5,8h1C1.776,8,2,7.776,2,7.5v-7C2,0.224,1.776,0,1.5,0h-1   C0.224,0,0,0.224,0,0.5v7C0,7.776,0.224,8,0.5,8z"></path>
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M4,0.5v7C4,7.776,4.224,8,4.5,8h1C5.776,8,6,7.776,6,7.5v-7   C6,0.224,5.776,0,5.5,0h-1C4.224,0,4,0.224,4,0.5z"></path>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg></a>
+        </nav>
+        <nav class="jp-rewind jp-gui-item">
+        <a class="main-player-rewind" href="javascript:;" tabindex="1" title="30 second rewind"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="10px" height="8px" viewBox="0 0 10 8" style="enable-background:new 0 0 10 8;" xml:space="preserve" class="svg replaced-svg">
+        <g id="Rewind_3">
+        <path d="M2.517,3.984l2.312-2.418c0.188-0.195,0.188-0.514,0-0.709L4.15,0.146c-0.188-0.195-0.491-0.195-0.679,0L0.141,3.629   c-0.188,0.197-0.188,0.514,0,0.711l3.361,3.513c0.188,0.196,0.491,0.196,0.679,0l0.679-0.709c0.188-0.196,0.188-0.514,0-0.71   L2.517,3.984z"></path>
+        <path d="M9.859,6.434L7.517,3.984l2.312-2.418c0.188-0.195,0.188-0.514,0-0.709L9.15,0.146c-0.188-0.195-0.491-0.195-0.679,0   L5.141,3.629c-0.188,0.197-0.188,0.514,0,0.711l3.361,3.513c0.188,0.196,0.491,0.196,0.679,0l0.679-0.709   C10.047,6.947,10.047,6.63,9.859,6.434z"></path>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg></a>
+        </nav>
+        <div class="jp-time jp-current-time jp-gui-item">00:00</div>
+        <div class="jp-gui-item jp-progress-bar">
+        <div class="jp-progress">
+        <div class="jp-seek-bar" title="Seek" style="width: 0%;">
+        <div class="jp-play-bar" style="width: 0%;"></div>
+        </div>
+        </div>
+        </div>
+        <div class="jp-time jp-duration jp-gui-item">-07:28</div>
+        <nav class="jp-controls jp-volume-controls jp-gui-item">
+        <a class="jp-mute" href="javascript:;" tabindex="1" title="Mute"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="18px" height="16.013px" viewBox="0 0 18 16.013" style="enable-background:new 0 0 18 16.013;" xml:space="preserve" class="svg replaced-svg">
+        <g id="Speaker_1_x2C__Volume_1">
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M8.041,0.135L4,4H1C0.447,4,0,4.49,0,5.032v5.95C0,11.524,0.447,12,1,12h3   l4.062,3.904c0,0,0.938,0.563,0.938-1.062c0-0.8,0-8.46,0-13.733C9-0.535,8.041,0.135,8.041,0.135z"></path>
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M10.498,4.058C10.225,4.024,10,4.251,10,4.527v1   c0,0.276,0.228,0.494,0.495,0.562C11.357,6.312,12,7.099,12,8.027s-0.643,1.716-1.505,1.938C10.228,10.033,10,10.251,10,10.527v1   c0,0.276,0.225,0.503,0.498,0.47C12.473,11.751,14,10.068,14,8.027S12.473,4.304,10.498,4.058z"></path>
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M10,0.527v1c0,0.276,0.225,0.498,0.499,0.521   C13.576,2.302,16,4.885,16,8.027s-2.424,5.726-5.501,5.979C10.225,14.029,10,14.251,10,14.527v1c0,0.276,0.225,0.502,0.5,0.484   c4.187-0.258,7.5-3.732,7.5-7.984s-3.313-7.727-7.5-7.984C10.225,0.025,10,0.251,10,0.527z"></path>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg></a>
+        <a class="jp-unmute" href="javascript:;" tabindex="1" title="Unmute" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15.997px" height="16.005px" viewBox="0 0 15.997 16.005" style="enable-background:new 0 0 15.997 16.005;" xml:space="preserve" class="svg replaced-svg">
+        <g id="Speaker_3_x2C__Volume_3_x2C__Mute_1">
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M14.411,8.029l1.439-1.439c0.195-0.195,0.195-0.512,0-0.707l-0.707-0.707   c-0.195-0.195-0.512-0.195-0.707,0l-1.439,1.439l-1.434-1.434c-0.195-0.195-0.512-0.195-0.707,0l-0.707,0.707   c-0.195,0.195-0.195,0.512,0,0.707l1.434,1.434l-1.434,1.434c-0.195,0.195-0.195,0.512,0,0.707l0.707,0.707   c0.195,0.195,0.512,0.195,0.707,0l1.434-1.434l1.439,1.439c0.195,0.195,0.512,0.195,0.707,0l0.707-0.707   c0.195-0.195,0.195-0.512,0-0.707L14.411,8.029z"></path>
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M8.041,0.136L4,4.007H1c-0.553,0-1,0.484-1,1.026v5.952   c0,0.542,0.447,1.021,1,1.021h3l4.062,3.904c0,0,0.938,0.562,0.938-1.065c0-0.8,0-8.463,0-13.737C9-0.536,8.041,0.136,8.041,0.136z   "></path>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg></a>
+        </nav>
+        <nav class="jp-player-speed main-player-speed jp-gui-item" title="Change playback speed">1x</nav>
+        </div>
+        </div>
+        </div>
+        </div>
+                            <div class="podcast-episode-description">
+                            <p>Aqui mucho más detalle del topic conversado, links etc. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+                            </div>
+                        </article>
+                    </li>
+                </ol>
+            </div>
+        <div class="podcast-page-navigation">
+            <a href="#()">Ver más</a>
+        </div>
+    </section>
+
+
+    <footer class="podcast-footer">
+        <div class="podcast-hosts">
+            <h2>Your Hosts</h2>
+
+            <div class="podcast-host">
+            <a class="podcast-host-avatar" href="https://twitter.com/nicetonoeu"><img src="https://pbs.twimg.com/profile_images/2387209127/46xaeh8qd9f76b9xrjv2.jpeg" alt="Zksc6lt6"></a>
+            <h3 class="podcast-host-name">Ricardo Herrera</h3>
+            </div>
+
+            <div class="podcast-host">
+            <a class="podcast-host-avatar" href="https://twitter.com/coderpug"><img src="https://pbs.twimg.com/profile_images/576949656304799744/f2wKztB1.jpeg" alt="Zksc6lt6"></a>
+            <h3 class="podcast-host-name">Jose Torres</h3>
+            </div>
+            
+            <div class="podcast-host">
+            <a class="podcast-host-avatar" href="https://twitter.com/colemancda"><img src="https://pbs.twimg.com/profile_images/706080273096708096/X32YKWdN.jpg" alt="Zksc6lt6"></a>
+            <h3 class="podcast-host-name">Alsey Coleman</h3>
+            </div>
+        </div>
+
+        <p>
+            <span class="podcast-copyright">All rights reserved</span>
+            <span class="podcast-simplecast-link">Made with Swift+Vapor</span>
+        </p>
+        
+        <nav class="podcast-nav">
+            <ul>
+                <li><a class="podcast-nav-link nav-itunes hint--bottom hint--rounded" data-hint="Listen in iTunes" target="_blank" href="https://itunes.apple.com/us/podcast/the-five-minute-geek-show/id952727637">Listen in iTunes</a></li>
+                <li><a class="podcast-nav-link nav-rss hint--bottom hint--rounded" data-hint="Subscribe via RSS" target="_blank" href="http://simplecast.com/podcasts/335/rss">Subscribe via RSS</a></li>
+                <li><a class="podcast-nav-link nav-twitter hint--bottom hint--rounded" data-hint="Follow on Twitter" target="_blank" href="https://twitter.com/5minutegeekshow">Follow on Twitter</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+}
