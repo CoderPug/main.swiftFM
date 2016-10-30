@@ -10,13 +10,13 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B33E755F-CB3B-4DE3-AB72-DCF60CCDBF56",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6400345F86F53D4096DD633F09AAE772FA6A202B" : "frozen-temple-84233\/Hello\/Packages\/Leaf-1.0.2\/",
-    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "frozen-temple-84233\/Hello\/Packages\/Jay-1.0.0\/",
+    "6400345F86F53D4096DD633F09AAE772FA6A202B" : "frozen-temple-84233\/Packages\/Leaf-1.0.2\/",
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "frozen-temple-84233\/Packages\/Jay-1.0.0\/",
     "DB45821FC4CD7F0DF6483F3C3D77DCFEA6247908" : "frozen-temple-84233\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Hello",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hello\/Hello.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hello.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/leaf.git",

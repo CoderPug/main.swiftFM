@@ -6746,12 +6746,12 @@
         };
         ___DebugConf_BCrypt = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/BCrypt_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'BCrypt'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/BCrypt_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'BCrypt'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_BCrypt = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/BCrypt_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'BCrypt'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/BCrypt_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'BCrypt'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_BCrypt = {
@@ -6836,12 +6836,12 @@
         };
         ___DebugConf_Cipher = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cipher_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cipher'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cipher_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cipher'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Cipher = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cipher_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cipher'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cipher_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cipher'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Cipher = {
@@ -6922,12 +6922,12 @@
         };
         ___DebugConf_Essentials = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Essentials_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Essentials'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Essentials_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Essentials'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Essentials = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Essentials_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Essentials'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Essentials_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Essentials'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Essentials = {
@@ -7026,12 +7026,12 @@
         };
         ___DebugConf_Hash = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Hash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Hash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Hash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Hash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Hash = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Hash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Hash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Hash_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Hash'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Hash = {
@@ -7120,12 +7120,12 @@
         };
         ___DebugConf_HMAC = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HMAC_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HMAC'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HMAC_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HMAC'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_HMAC = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HMAC_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HMAC'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HMAC_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HMAC'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_HMAC = {
@@ -7220,12 +7220,12 @@
         };
         ___DebugConf_Random = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Random_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Random'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Random_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Random'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Random = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Random_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Random'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Random_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Random'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Random = {
@@ -8522,12 +8522,12 @@
         };
         ___DebugConf_TLS = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TLS_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TLS'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TLS_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TLS'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_TLS = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TLS_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TLS'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TLS_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TLS'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_TLS = {
@@ -8962,12 +8962,12 @@
         };
         ___DebugConf_HTTP = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_HTTP = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_HTTP = {
@@ -9278,12 +9278,12 @@
         };
         ___DebugConf_SMTP = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/SMTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'SMTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/SMTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'SMTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_SMTP = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/SMTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'SMTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/SMTP_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'SMTP'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_SMTP = {
@@ -9460,12 +9460,12 @@
         };
         ___DebugConf_Transport = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Transport_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Transport'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Transport_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Transport'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Transport = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Transport_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Transport'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Transport_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Transport'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Transport = {
@@ -9662,12 +9662,12 @@
         };
         ___DebugConf_URI = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/URI_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'URI'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/URI_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'URI'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_URI = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/URI_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'URI'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/URI_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'URI'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_URI = {
@@ -9916,12 +9916,12 @@
         };
         ___DebugConf_WebSockets = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/WebSockets_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'WebSockets'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/WebSockets_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'WebSockets'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_WebSockets = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/WebSockets_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'WebSockets'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/WebSockets_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'WebSockets'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_WebSockets = {
@@ -11760,12 +11760,12 @@
         };
         ___DebugConf_HTTPRouting = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTPRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTPRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTPRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTPRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_HTTPRouting = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTPRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTPRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/HTTPRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'HTTPRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_HTTPRouting = {
@@ -11984,12 +11984,12 @@
         };
         ___DebugConf_Routing = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Routing_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Routing'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Routing_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Routing'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Routing = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Routing_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Routing'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Routing_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Routing'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Routing = {
@@ -12156,12 +12156,12 @@
         };
         ___DebugConf_TypeSafeRouting = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TypeSafeRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TypeSafeRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TypeSafeRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TypeSafeRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_TypeSafeRouting = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TypeSafeRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TypeSafeRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/TypeSafeRouting_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'TypeSafeRouting'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_TypeSafeRouting = {
@@ -12482,12 +12482,12 @@
         };
         ___DebugConf_Auth = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Auth_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Auth'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Auth_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Auth'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Auth = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Auth_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Auth'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Auth_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Auth'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Auth = {
@@ -12690,12 +12690,12 @@
         };
         ___DebugConf_Cache = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cache_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cache'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cache_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cache'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Cache = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cache_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cache'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cache_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cache'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Cache = {
@@ -12978,12 +12978,12 @@
         };
         ___DebugConf_Cookies = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cookies_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cookies'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cookies_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cookies'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Cookies = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cookies_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cookies'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Cookies_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Cookies'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Cookies = {
@@ -13220,12 +13220,12 @@
         };
         ___DebugConf_Sessions = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Sessions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Sessions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Sessions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Sessions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Sessions = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Sessions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Sessions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Sessions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Sessions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Sessions = {
@@ -13498,12 +13498,12 @@
         };
         ___DebugConf_Settings = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Settings_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Settings'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Settings_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Settings'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Settings = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Settings_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Settings'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Settings_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Settings'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Settings = {
@@ -14556,12 +14556,12 @@
         };
         ___DebugConf_Vapor = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Vapor_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Vapor'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Vapor_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Vapor'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Debug;
         };
         _ReleaseConf_Vapor = {
             isa = XCBuildConfiguration;
-            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Vapor_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Vapor'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hello.xcodeproj/Vapor_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; PRODUCT_BUNDLE_IDENTIFIER = 'Vapor'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
             name = Release;
         };
         __Dependency_Vapor = {
@@ -14788,12 +14788,12 @@
         };
         ___DebugConf_App = {
             isa = XCBuildConfiguration;
-            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
             name = Debug;
         };
         _ReleaseConf_App = {
             isa = XCBuildConfiguration;
-            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/coche/Documents/Development/Podcast/Tech/frozen-temple-84233/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
             name = Release;
         };
         __Dependency_App = {
