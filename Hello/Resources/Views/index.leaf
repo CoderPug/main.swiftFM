@@ -13,7 +13,7 @@
 
     <header class="podcast-header">
         <div class="container">
-        <a class="podcast-title" title="Cocoa Lima Bytes" href="www.coderpug.com">
+            <a class="podcast-title" title="Tech" href="#()">
             <img src="https://pbs.twimg.com/profile_images/790408622765244416/rt8_eL-7.jpg" alt="Twitter etc fmgs logo white">
         </a>
         <nav class="podcast-nav">
@@ -28,7 +28,7 @@
 
     <section class="container podcast-main">
         <div class="podcast-description">
-            <p>Dummy text for presentation</p>
+            <p>Cocoa Lima - Tech es un podcast donde repasamos las últimas noticias en el mundo tecnológico. Publicamos episodios el primer y tercer lunes de cada mes!.</p>
         </div>
 
         <div class="podcast-episodes">
