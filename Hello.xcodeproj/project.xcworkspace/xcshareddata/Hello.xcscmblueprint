@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB45821FC4CD7F0DF6483F3C3D77DCFEA6247908",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6400345F86F53D4096DD633F09AAE772FA6A202B" : 9223372036854775807,
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
+    "DB45821FC4CD7F0DF6483F3C3D77DCFEA6247908" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B33E755F-CB3B-4DE3-AB72-DCF60CCDBF56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6400345F86F53D4096DD633F09AAE772FA6A202B" : "frozen-temple-84233\/Hello\/Packages\/Leaf-1.0.2\/",
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "frozen-temple-84233\/Hello\/Packages\/Jay-1.0.0\/",
+    "DB45821FC4CD7F0DF6483F3C3D77DCFEA6247908" : "frozen-temple-84233\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hello",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hello\/Hello.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/leaf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6400345F86F53D4096DD633F09AAE772FA6A202B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.heroku.com\/frozen-temple-84233.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB45821FC4CD7F0DF6483F3C3D77DCFEA6247908"
+    }
+  ]
+}
