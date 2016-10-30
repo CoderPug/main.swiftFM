@@ -61,7 +61,7 @@
 </audio>
 </div>
 <div class="podcast-episode-description">
-<p>Aqui mucho más detalle del episodio. #TECH #COCOABYTES</p>
+<p>Aqui mucho más detalle del episodio. #()TECH #()COCOABYTES</p>
 </div>
 <footer class="podcast-episode-footer">
 <a rel="nofollow" class="podcast-episode-download" download="" href="http://audio.simplecast.com/51063.mp3">Download MP3 (5.88 MB)</a>
@@ -81,7 +81,7 @@
 </h3>
 </header>
 <div class="podcast-episode-description">
-<p>Aqui mucho más detalle del episodio. #TECH #COCOABYTES</p>
+<p>Aqui mucho más detalle del episodio. #()TECH #()COCOABYTES</p>
 </div>
 </article>
 </li>
