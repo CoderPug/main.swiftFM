@@ -1,0 +1,33 @@
+#extend("base")
+
+#export("head") {
+
+    <link rel="stylesheet" type="text/css" href="../styles/app.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+}
+
+#export("body") {
+
+    <div class="podcast-episodes">
+    #loop(episodes, "episode") {
+        <li class="podcast-episode">
+            <a class="podcast-episode-image" href="/mainswift/episodes/#(episode.title)">
+                <img src=#(episode.imageURL) alt="">
+            </a>
+            <article>
+                <header>
+                    <time class="podcast-episode-date" datetime="2016-10-10">#(episode.date)</time>
+                    <h3 class="podcast-episode-title">
+                <a href="/mainswift/episodes/#(episode.title)">#(episode.title)</a>
+                </h3>
+                </header>
+                <div class="podcast-episode-description">
+                    <p>#(episode.description)</p>
+                </div>
+            </article>
+        </li>
+    }
+    <div>
+
+}

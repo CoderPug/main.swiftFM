@@ -14573,7 +14573,7 @@
             name = 'App';
             path = 'Sources/App';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Sources/App/main.swift', '__PBXFileRef_Sources/App/Controllers/PostController.swift', '__PBXFileRef_Sources/App/Models/Post.swift');
+            children = ('__PBXFileRef_Sources/App/main.swift', '__PBXFileRef_Sources/App/Models/Episode.swift', '__PBXFileRef_Sources/App/Models/Host.swift');
         };
         '__PBXFileRef_Sources/App/main.swift' = {
             isa = PBXFileReference;
@@ -14581,16 +14581,16 @@
             path = 'main.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Sources/App/Controllers/PostController.swift' = {
+        '__PBXFileRef_Sources/App/Models/Episode.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Controllers/PostController.swift';
+            path = 'Models/Episode.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Sources/App/Models/Post.swift' = {
+        '__PBXFileRef_Sources/App/Models/Host.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            path = 'Models/Post.swift';
+            path = 'Models/Host.swift';
             sourceTree = '<group>';
         };
         ______Target_App = {
@@ -14612,20 +14612,20 @@
         };
         CompilePhase_App = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Sources/App/main.swift', '__src_cc_ref_Sources/App/Controllers/PostController.swift', '__src_cc_ref_Sources/App/Models/Post.swift');
+            files = ('__src_cc_ref_Sources/App/main.swift', '__src_cc_ref_Sources/App/Models/Episode.swift', '__src_cc_ref_Sources/App/Models/Host.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
         '__src_cc_ref_Sources/App/main.swift' = {
             isa = PBXBuildFile;
             fileRef = '__PBXFileRef_Sources/App/main.swift';
         };
-        '__src_cc_ref_Sources/App/Controllers/PostController.swift' = {
+        '__src_cc_ref_Sources/App/Models/Episode.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Sources/App/Controllers/PostController.swift';
+            fileRef = '__PBXFileRef_Sources/App/Models/Episode.swift';
         };
-        '__src_cc_ref_Sources/App/Models/Post.swift' = {
+        '__src_cc_ref_Sources/App/Models/Host.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Sources/App/Models/Post.swift';
+            fileRef = '__PBXFileRef_Sources/App/Models/Host.swift';
         };
         ___LinkPhase_App = {
             isa = PBXFrameworksBuildPhase;
