@@ -71,7 +71,7 @@ drop.get("/mainswift") { request in
     var arrayEpisodes: [Node]?
     do {
         if let db = drop.database?.driver as? PostgreSQLDriver {
-            let resultArray = try db.raw("select * from episodes limit 5")
+            let resultArray = try db.raw("select * from episodes order by id desc limit 5")
             arrayEpisodes = resultArray.nodeArray
         } else {
             arrayEpisodes = []
