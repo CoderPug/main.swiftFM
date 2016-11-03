@@ -9,7 +9,7 @@
 import Vapor
 import Fluent
 
-final class Host: Entity, Model {
+final class Host: Model {
     
     var id: Node?
     var name: String
@@ -26,7 +26,7 @@ final class Host: Entity, Model {
         id = try node.extract("id")
         name = try node.extract("name")
         url = try node.extract("url")
-        imageURL = try node.extract("imageURL")
+        imageURL = try node.extract("imageurl")
     }
     
     func makeNode(context: Context) throws -> Node {
@@ -34,15 +34,20 @@ final class Host: Entity, Model {
             "id": id,
             "name": name,
             "url": url,
-            "imageURL": imageURL
+            "imageurl": imageURL
             ])
     }
     
     static func prepare(_ database: Database) throws {
-        
+        try database.create("hosts") { episodes in
+            episodes.id()
+            episodes.string("name")
+            episodes.string("url")
+            episodes.string("imageurl")
+        }
     }
     
     static func revert(_ database: Database) throws {
-        
+        try database.delete("hosts")
     }
 }

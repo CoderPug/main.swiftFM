@@ -8,9 +8,8 @@
 
 import Vapor
 import Fluent
-import Foundation
 
-final class Episode: Entity, Model {
+final class Episode: Model {
     
     var id: Node?
     var date: String
@@ -31,8 +30,8 @@ final class Episode: Entity, Model {
         id = try node.extract("id")
         title = try node.extract("title")
         description = try node.extract("description")
-        imageURL = try node.extract("imageURL")
-        audioURL = try node.extract("audioURL")
+        imageURL = try node.extract("imageurl")
+        audioURL = try node.extract("audiourl")
         date = try node.extract("date")
     }
     
@@ -45,17 +44,24 @@ final class Episode: Entity, Model {
             "id": id,
             "title": title,
             "description": description,
-            "imageURL": imageURL,
-            "audioURL": audioURL,
+            "imageurl": imageURL,
+            "audiourl": audioURL,
             "date": date
         ])
     }
     
     static func prepare(_ database: Database) throws {
-        
+        try database.create("episodes") { episodes in
+            episodes.id()
+            episodes.string("title")
+            episodes.string("description")
+            episodes.string("imageurl")
+            episodes.string("audiourl")
+            episodes.string("date")
+        }
     }
     
     static func revert(_ database: Database) throws {
-        
+        try database.delete("episodes")
     }
 }

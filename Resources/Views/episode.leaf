@@ -9,31 +9,33 @@
 
 #export("body") {
 
-<div class="podcast-episodes">
-    <li class="podcast-episode">
-        <a class="podcast-episode-image" href="">
-            <img src=#(episode.imageURL) alt="">
-        </a>
-        <article>
-            <header>
-                <time class="podcast-episode-date" datetime="">#(episode.date)</time>
-                <h3 class="podcast-episode-title">
-                    <a href="#()">#(episode.title)</a>
-                </h3>
-            </header>
-            <div class="podcast-episode-player">
-                <audio controls>
-                    <source src="#(episode.audioURL)" type="audio/mpeg"> Your browser does not support the audio element.
-                </audio>
-            </div>
-            <div class="podcast-episode-description">
-                <p>#(episode.description)</p>
-            </div>
-            <footer class="podcast-episode-footer">
-                <a rel="nofollow" class="podcast-episode-download" download="" href=#(episode.audioURL)>Download MP3</a>
-            </footer>
-        </article>
-    </li>
-</div>
+#if(episode) {
+    <div class="podcast-episodes">
+        <li class="podcast-episode">
+            <a class="podcast-episode-image" href="">
+                <img src=#(episode.imageurl) alt="">
+            </a>
+            <article>
+                <header>
+                    <time class="podcast-episode-date" datetime="">#(episode.date)</time>
+                    <h3 class="podcast-episode-title">
+                        <a>#(episode.title)</a>
+                    </h3>
+                </header>
+                <div class="podcast-episode-player">
+                    <audio controls>
+                        <source src="#(episode.audiourl)" type="audio/mpeg"> Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="podcast-episode-description">
+                    <p>#(episode.description)</p>
+                </div>
+                <footer class="podcast-episode-footer">
+                    <a rel="nofollow" class="podcast-episode-download" download="" href=#(episode.audiourl)>Download MP3</a>
+                </footer>
+            </article>
+        </li>
+    </div>
+}
 
 }

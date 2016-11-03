@@ -1,8 +1,64 @@
 
 
 import Vapor
+import VaporPostgreSQL
 
 let drop = Droplet()
+
+try drop.addProvider(VaporPostgreSQL.Provider.self)
+drop.preparations.append(Episode.self)
+drop.preparations.append(Host.self)
+
+drop.get("version") { request in
+    if let db = drop.database?.driver as? PostgreSQLDriver {
+        let version = try db.raw("SELECT version()")
+        return try JSON(node: version)
+    } else {
+        return "No db connection"
+    }
+}
+
+drop.post("episode") { request in
+    
+    guard let title = request.data["title"]?.string,
+        let description = request.data["description"]?.string,
+        let imageURL = request.data["imageurl"]?.string,
+        let audioURL = request.data["audiourl"]?.string,
+        let date = request.data["date"]?.string else {
+            throw Abort.badRequest
+    }
+    
+    var episode = Episode(title: title, description: description, imageURL: imageURL, audioURL: audioURL, date: date)
+    
+    try episode.save()
+    
+    return episode
+}
+
+drop.get("episodes") { request in
+    
+    return try JSON(node: Episode.all())
+}
+
+drop.post("host") { request in
+    
+    guard let name = request.data["name"]?.string,
+        let url = request.data["url"]?.string,
+        let imageURL = request.data["imageurl"]?.string else {
+            throw Abort.badRequest
+    }
+    
+    var host = Host(name: name, url: url, imageURL: imageURL)
+    
+    try host.save()
+    
+    return host
+}
+
+drop.get("hosts") { request in
+    
+    return try JSON(node: Host.all())
+}
 
 drop.get("/welcome") { request in
     return try drop.view.make("welcome", [
@@ -12,69 +68,114 @@ drop.get("/welcome") { request in
 
 drop.get("/mainswift") { request in
     
-    let episodeA = Episode(title: "1", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeB = Episode(title: "2", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeC = Episode(title: "3", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeD = Episode(title: "4", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeE = Episode(title: "5", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    var arrayEpisodes = [episodeA, episodeB, episodeC, episodeD, episodeE]
-    
-    let hostA = Host(name: "Ricardo Herrera", url: "https://twitter.com/nicetonoeu", imageURL: "https://pbs.twimg.com/profile_images/2387209127/46xaeh8qd9f76b9xrjv2_400x400.jpeg")
-    let hostB = Host(name: "Jose Torres", url: "https://twitter.com/coderpug", imageURL: "https://pbs.twimg.com/profile_images/576949656304799744/f2wKztB1_400x400.jpeg")
-    let hostC = Host(name: "Alsey Coleman", url: "https://twitter.com/colemancda", imageURL: "https://pbs.twimg.com/profile_images/706080273096708096/X32YKWdN_400x400.jpg")
-    let arrayHosts = [hostA, hostB, hostC]
-    
-    let featuredEpisode: Episode?
-    if arrayEpisodes.count > 0 {
-        featuredEpisode = arrayEpisodes.first
-        arrayEpisodes.removeFirst()
-    } else {
-        featuredEpisode = Episode()
+    var arrayEpisodes: [Node]?
+    do {
+        if let db = drop.database?.driver as? PostgreSQLDriver {
+            let resultArray = try db.raw("select * from episodes limit 5")
+            arrayEpisodes = resultArray.nodeArray
+        } else {
+            arrayEpisodes = []
+        }
+    } catch {
+        print(error)
+        arrayEpisodes = []
     }
     
-    return try drop.view.make("mainswift", [
-        "swiftLogoURL": "images/mainswiftlogo500x500.png",
-        "featuredEpisode": featuredEpisode?.makeNode() ?? EmptyNode,
-        "episodes": arrayEpisodes.makeNode(),
-        "hosts": arrayHosts.makeNode()
-        ])
+    var arrayHosts: [AnyObject]?
+    do {
+        arrayHosts = try Host.all()
+    } catch {
+        print(error)
+        arrayHosts = []
+    }
+    
+    let featuredEpisode: Node?
+    if arrayEpisodes != nil && arrayEpisodes!.count > 0 {
+        featuredEpisode = arrayEpisodes?.first
+        arrayEpisodes?.removeFirst()
+    } else {
+        featuredEpisode = nil
+    }
+    
+    var argument: [String: NodeRepresentable]
+    
+    if featuredEpisode != nil {
+        argument = [
+            "swiftLogoURL": "images/mainswiftlogo500x500.png",
+            "featuredEpisode": featuredEpisode ?? EmptyNode,
+            "episodes": try arrayEpisodes?.makeNode() ?? EmptyNode,
+            "hosts": try (arrayHosts as? [Host])?.makeNode() ?? EmptyNode
+        ]
+    } else {
+        argument = [
+            "swiftLogoURL": "images/mainswiftlogo500x500.png",
+            "episodes": try arrayEpisodes?.makeNode() ?? EmptyNode,
+            "hosts": try (arrayHosts as? [Host])?.makeNode() ?? EmptyNode
+        ]
+    }
+    
+    return try drop.view.make("mainswift", argument)
 }
 
 drop.get("/mainswift/episodes") { request in
     
-    let episodeA = Episode(title: "1", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeB = Episode(title: "2", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeC = Episode(title: "3", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeD = Episode(title: "4", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    let episodeE = Episode(title: "5", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
-    var arrayEpisodes = [episodeA, episodeB, episodeC, episodeD, episodeE]
+    var arrayEpisodes: [AnyObject]?
+    do {
+        arrayEpisodes = try Episode.all()
+    } catch {
+        print(error)
+        arrayEpisodes = []
+    }
     
-    let hostA = Host(name: "Ricardo Herrera", url: "https://twitter.com/nicetonoeu", imageURL: "https://pbs.twimg.com/profile_images/2387209127/46xaeh8qd9f76b9xrjv2_400x400.jpeg")
-    let hostB = Host(name: "Jose Torres", url: "https://twitter.com/coderpug", imageURL: "https://pbs.twimg.com/profile_images/576949656304799744/f2wKztB1_400x400.jpeg")
-    let hostC = Host(name: "Alsey Coleman", url: "https://twitter.com/colemancda", imageURL: "https://pbs.twimg.com/profile_images/706080273096708096/X32YKWdN_400x400.jpg")
-    let arrayHosts = [hostA, hostB, hostC]
+    var arrayHosts: [AnyObject]?
+    do {
+        arrayHosts = try Host.all()
+    } catch {
+        print(error)
+        arrayHosts = []
+    }
     
     return try drop.view.make("episodes", [
         "swiftLogoURL": "../images/mainswiftlogo500x500.png",
-        "episodes": arrayEpisodes.makeNode(),
-        "hosts": arrayHosts.makeNode()
+        "episodes": try (arrayEpisodes as? [Episode])?.makeNode() ?? EmptyNode,
+        "hosts": try (arrayHosts as? [Host])?.makeNode() ?? EmptyNode
         ])
 }
 
-drop.get("/mainswift/episodes/", String.self) { request, episodeId in
+drop.get("/mainswift/episodes/", Int.self) { request, episodeId in
     
-    let episodeA = Episode(title: "1", description: "descripción", imageURL: "", audioURL: "", date: "01 Noviembre")
+    var episode: Episode?
+    do {
+        episode = try Episode.find(episodeId)
+    } catch {
+        print(error)
+        episode = nil
+    }
     
-    let hostA = Host(name: "Ricardo Herrera", url: "https://twitter.com/nicetonoeu", imageURL: "https://pbs.twimg.com/profile_images/2387209127/46xaeh8qd9f76b9xrjv2_400x400.jpeg")
-    let hostB = Host(name: "Jose Torres", url: "https://twitter.com/coderpug", imageURL: "https://pbs.twimg.com/profile_images/576949656304799744/f2wKztB1_400x400.jpeg")
-    let hostC = Host(name: "Alsey Coleman", url: "https://twitter.com/colemancda", imageURL: "https://pbs.twimg.com/profile_images/706080273096708096/X32YKWdN_400x400.jpg")
-    let arrayHosts = [hostA, hostB, hostC]
+    var arrayHosts: [AnyObject]?
+    do {
+        arrayHosts = try Host.all()
+    } catch {
+        print(error)
+        arrayHosts = []
+    }
     
-    return try drop.view.make("episode", [
-        "swiftLogoURL": "../../images/mainswiftlogo500x500.png",
-        "episode": episodeA.makeNode(),
-        "hosts": arrayHosts.makeNode()
-        ])
+    var argument: [String: NodeRepresentable]
+    
+    if episode != nil {
+        argument = [
+            "swiftLogoURL": "../../images/mainswiftlogo500x500.png",
+            "episode": try episode?.makeNode() ?? EmptyNode,
+            "hosts": try (arrayHosts as? [Host])?.makeNode() ?? EmptyNode
+        ]
+    } else {
+        argument = [
+            "swiftLogoURL": "../../images/mainswiftlogo500x500.png",
+            "hosts": try (arrayHosts as? [Host])?.makeNode() ?? EmptyNode
+        ]
+    }
+    
+    return try drop.view.make("episode", argument)
 
 }
 

@@ -55,7 +55,7 @@
                 #loop(hosts, "host") {
                 <div class="podcast-host">
                     <a class="podcast-host-avatar" href=#(host.url)>
-                        <img src=#(host.imageURL) alt="">
+                        <img src=#(host.imageurl) alt="">
                     </a>
                     <h3 class="podcast-host-name">#(host.name)</h3>
                 </div>
