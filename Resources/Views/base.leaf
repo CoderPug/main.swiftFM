@@ -37,8 +37,8 @@
         </header>
         <section class="container podcast-main">
             <div class="podcast-description">
-                <p>Podcast con episodios de conversaciones sobre las últimas novedades en el mundo tecnológico de una manera casual y simple. Además de episodios más técnicos sobre las últimas novedades de desarrollo en las plataformas de Apple.</p>
-                <p>Dirigido por @CocoaLima</p>
+                <p>Podcast en español con episodios de conversaciones sobre las últimas novedades en el mundo tecnológico de una manera casual y simple. Además de episodios más técnicos sobre las últimas novedades en el desarrollo sobre las plataformas de Apple.</p>
+                <p>Dirigido por <a href="https://twitter.com/cocoaLima">@CocoaLima</a></p>
             </div>
 
             #import("body")
@@ -46,11 +46,11 @@
             <div class="podcast-page-navigation">
                 <a href="/mainswift/episodes">Ver todo</a>
             </div>
-        </section>     
+        </section>
 
         <footer class="podcast-footer">
             <div class="podcast-hosts">
-                <h2>Nuestros Hosts</h2> 
+                <h2>Nuestros Hosts</h2>
 
                 #loop(hosts, "host") {
                 <div class="podcast-host">
@@ -61,10 +61,11 @@
                 </div>
                 }
 
-                <span class="podcast-copyright">All rights reserved</span>
                 <span class="podcast-simplecast-link">Made with&emsp;💜&emsp;in Swift + Vapor</span>
+                <span class="podcast-copyright">All rights reserved</span>
+                <span class="podcast-copyright">Swift and the Swift logo are trademarks of Apple Inc.</span>                
                 </p>
         </footer>
     </body>
-    
+
 </html>

@@ -21,19 +21,47 @@ drop.get("version") { request in
 drop.post("episode") { request in
     
     guard let title = request.data["title"]?.string,
-        let description = request.data["description"]?.string,
         let imageURL = request.data["imageurl"]?.string,
         let audioURL = request.data["audiourl"]?.string,
-        let date = request.data["date"]?.string else {
+        let date = request.data["date"]?.string,
+        let shortDescription = request.data["shortdescription"]?.string,
+        let fullDescription = request.data["fulldescription"]?.string else {
             throw Abort.badRequest
     }
     
-    var episode = Episode(title: title, description: description, imageURL: imageURL, audioURL: audioURL, date: date)
-    
+    var episode = Episode(title: title, shortDescription: shortDescription, fullDescription: fullDescription, imageURL: imageURL, audioURL: audioURL, date: date)
     try episode.save()
     
     return episode
 }
+
+drop.put("episode", Int.self) { request, episodeId in
+    
+    guard let title = request.data["title"]?.string,
+        let imageURL = request.data["imageurl"]?.string,
+        let audioURL = request.data["audiourl"]?.string,
+        let date = request.data["date"]?.string,
+        let shortDescription = request.data["shortdescription"]?.string,
+        let fullDescription = request.data["fulldescription"]?.string else {
+            throw Abort.badRequest
+    }
+    
+    var episode: Episode?
+    do {
+        episode = try Episode.find(episodeId)
+    } catch {
+        print(error)
+        episode = nil
+    }
+    
+    if episode != nil {
+        episode?.update(title: title, shortDescription: shortDescription, fullDescription: fullDescription, imageURL: imageURL, audioURL: audioURL, date: date)
+        try episode!.save()
+    }
+    
+    return episode ?? Episode()
+}
+
 
 drop.get("episodes") { request in
     

@@ -23,7 +23,7 @@
                 </h3>
                 </header>
                 <div class="podcast-episode-description">
-                    <p>#(episode.description)</p>
+                    #raw(episode.shortdescription)
                 </div>
             </article>
         </li>

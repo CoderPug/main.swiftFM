@@ -28,10 +28,10 @@
                     </audio>
                 </div>
                 <div class="podcast-episode-description">
-                    <p>#(episode.description)</p>
+                    #raw(episode.fulldescription)
                 </div>
                 <footer class="podcast-episode-footer">
-                    <a rel="nofollow" class="podcast-episode-download" download="" href=#(episode.audiourl)>Download MP3</a>
+                    <a rel="nofollow" class="podcast-episode-download" download="" href=#(episode.audiourl)>Descargar MP3</a>
                 </footer>
             </article>
         </li>

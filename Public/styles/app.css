@@ -971,6 +971,7 @@ audio {
     max-height: 80px
 }
 .podcast-episodes {
+    list-style-type: none;
     margin: 0 40px
 }
 @media only screen and (max-width: 490px) {
@@ -1001,7 +1002,8 @@ audio {
     color: #fff
 }
 .podcast-footer {
-    background: #FA8342
+    background: #FA8342;
+    color: rgba(84, 84, 84, 0.65)
 }
 .podcast-footer>p {
     font-size: 14px;
@@ -1072,6 +1074,7 @@ audio {
 .podcast-simplecast-link {
     margin: 0 0 15px 0;
     display: block;
+    font-size: 14px;
 }
 .podcast-copyright>a,
 .podcast-simplecast-link>a {
